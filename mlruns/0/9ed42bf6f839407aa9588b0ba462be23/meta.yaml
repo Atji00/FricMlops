@@ -1,0 +1,15 @@
+artifact_uri: mlflow-artifacts:/0/9ed42bf6f839407aa9588b0ba462be23/artifacts
+end_time: 1742715641236
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 9ed42bf6f839407aa9588b0ba462be23
+run_name: decision_tree_run
+run_uuid: 9ed42bf6f839407aa9588b0ba462be23
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1742715622278
+status: 4
+tags: []
+user_id: pc

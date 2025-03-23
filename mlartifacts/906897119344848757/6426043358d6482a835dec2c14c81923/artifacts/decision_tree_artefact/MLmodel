@@ -1,0 +1,51 @@
+artifact_path: decision_tree_artefact
+flavors:
+  python_function:
+    env:
+      conda: conda.yaml
+      virtualenv: python_env.yaml
+    loader_module: mlflow.sklearn
+    model_path: model.pkl
+    predict_fn: predict
+    python_version: 3.12.8
+  sklearn:
+    code: null
+    pickled_model: model.pkl
+    serialization_format: cloudpickle
+    sklearn_version: 1.6.1
+is_signature_from_type_hint: false
+mlflow_version: 2.21.0
+model_size_bytes: 55194157
+model_uuid: a3b07a63c90d4c34aacb195026761c4b
+prompts: null
+run_id: 6426043358d6482a835dec2c14c81923
+saved_input_example_info:
+  artifact_path: input_example.json
+  pandas_orient: split
+  serving_input_path: serving_input_example.json
+  type: dataframe
+signature:
+  inputs: '[{"type": "long", "name": "Age", "required": true}, {"type": "long", "name":
+    "Income", "required": true}, {"type": "long", "name": "LoanAmount", "required":
+    true}, {"type": "long", "name": "CreditScore", "required": true}, {"type": "long",
+    "name": "MonthsEmployed", "required": true}, {"type": "long", "name": "NumCreditLines",
+    "required": true}, {"type": "double", "name": "InterestRate", "required": true},
+    {"type": "long", "name": "LoanTerm", "required": true}, {"type": "double", "name":
+    "DTIRatio", "required": true}, {"type": "boolean", "name": "Education_High School",
+    "required": true}, {"type": "boolean", "name": "Education_Master''s", "required":
+    true}, {"type": "boolean", "name": "Education_PhD", "required": true}, {"type":
+    "boolean", "name": "EmploymentType_Part-time", "required": true}, {"type": "boolean",
+    "name": "EmploymentType_Self-employed", "required": true}, {"type": "boolean",
+    "name": "EmploymentType_Unemployed", "required": true}, {"type": "boolean", "name":
+    "MaritalStatus_Married", "required": true}, {"type": "boolean", "name": "MaritalStatus_Single",
+    "required": true}, {"type": "boolean", "name": "HasMortgage_Yes", "required":
+    true}, {"type": "boolean", "name": "HasDependents_Yes", "required": true}, {"type":
+    "boolean", "name": "LoanPurpose_Business", "required": true}, {"type": "boolean",
+    "name": "LoanPurpose_Education", "required": true}, {"type": "boolean", "name":
+    "LoanPurpose_Home", "required": true}, {"type": "boolean", "name": "LoanPurpose_Other",
+    "required": true}, {"type": "boolean", "name": "HasCoSigner_Yes", "required":
+    true}]'
+  outputs: '[{"type": "long", "required": true}]'
+  params: null
+type_hint_from_example: false
+utc_time_created: '2025-03-23 08:21:43.622993'
